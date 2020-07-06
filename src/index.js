@@ -3,7 +3,7 @@ const MongoClient = require('mongoose');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const appRoutes = require('./routes/app');
-const { BD_LOCAL, PORT } = require('./config');
+const { BD_LOCAL, PORT } = require('../config');
 
 const app = express();
 
